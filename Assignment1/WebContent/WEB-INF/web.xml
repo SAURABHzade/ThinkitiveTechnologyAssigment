@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>container</servlet-name>
+<servlet-class>com.nt.servlet.ContainerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>container</servlet-name>
+<url-pattern>/assign</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>input.html</welcome-file>
+</welcome-file-list>
+</web-app>
