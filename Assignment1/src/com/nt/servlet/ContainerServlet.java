@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.nt.mainLogic.MinimumTimeTaken;
 
 public class ContainerServlet extends HttpServlet {
-	 public void doGet(HttpServletRequest req,HttpServletResponse res) throws ServletException,IOException{
+	 public void doPost(HttpServletRequest req,HttpServletResponse res) throws ServletException,IOException{
          PrintWriter pw=null;
          String total_container=null,total_person=null,each_volume=null;;
          pw=res.getWriter();
